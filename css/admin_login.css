@@ -1,0 +1,56 @@
+*{
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	background-image: url("login.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family:sans-serif;
+}
+#mar1{
+	color:white;
+	font-weight:bold;
+	font-size:50px;
+	padding:3px;
+}
+.cont{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:absolute;
+	margin-top:20px;
+	margin-left:400px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding:50px;
+}
+.cont form{
+	margin:10px;
+	display:flex;
+	flex-direction:column;
+}
+
+h1{
+	color:white;
+	letter-spacing: 10px;
+	font-size:50px;
+}
+label{
+	color:white;
+	margin-bottom:10px;
+}
+input{
+	height:40px;
+}
+button[type=submit]{
+	width:100px;
+	height:30px;
+	background:#0d244a;
+	border-style:none;
+	color:white;
+}
+

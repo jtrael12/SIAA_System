@@ -1,0 +1,312 @@
+body{
+	background:url(bg_home.jpg) no-repeat center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size:cover;
+    font-family: 'Roboto', sans-serif;
+}
+.alert{
+	position: absolute;
+    padding: .75rem 1.25rem;
+    margin-left: 87px;
+    border: 3px solid transparent;
+    border-radius: .25rem;
+    width: 71.9%;
+	animation-name:alertsu;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	text-align:left;
+}
+@keyframes alertsu{
+	0%{top:-200px;}
+	100%{top:-84px;}
+}
+*{
+margin:0;
+padding:0;
+list-style: none;
+text-decoration: none;
+}
+
+.sidebar{
+position:fixed;
+left: 0;
+width:200px;
+height:100%;
+background: #042331;
+display:block;
+overflow-y:auto;
+}
+.sidebar header{
+font-size:22px;
+color:white;
+text-align:center;
+line-height:70px;
+background:#063146;
+}
+
+.sidebar ul a{
+display:block;
+height:100%;
+width:100%;
+line-height:65px;
+font-size:15px;
+color:white;
+padding-left:25px;
+box-sizing:border-box;
+border-top:1px solid rgba(255,255,255,.1);
+border-bottom:1px solid black;
+transition:.4s;
+}
+
+ul li:hover a{
+padding-left:30px;
+}
+
+.sidebar ul a i{
+margin-right: 16px;
+}
+
+.upperbar{
+color:white;
+text-align:left;
+width:100%;
+height:11.3%;
+background:white;
+border-bottom:1px solid grey;
+border-bottom:1px solid grey;
+position:fixed;
+}
+
+.upperbar h1{
+	font-size:120%;
+	margin-left:250px;
+	margin-top:25px;
+	margin-bottom:40px;
+	color: grey;
+	
+}
+
+form {
+    font-family: sans-serif;
+	box-sizing: border-box;
+	color: black;
+	margin-top:120px;
+	margin-left:310px;
+	border: 4px solid black;
+	background: #fff;
+	border-radius: 15px;
+	width:70%;
+	height:75%;
+	position:absolute;
+	text-align:center;
+}
+
+h2{
+font-size:22px;
+color:white;
+text-align:center;
+line-height:70px;
+background:#063146;
+margin-bottom:40px;
+position:absolute;
+width:90%;
+margin-top:30px;
+margin-left:47px;
+}
+
+.product_title i{
+  width:4%;
+  border: 1px solid black;
+  display: block;
+  padding: 10px 10px;
+  margin-top:119px;
+  margin-left:70px;
+  background: #063146;
+  color:white;
+ position:absolute;
+}
+
+.title{
+  width:70%;
+  border: 1px solid black;
+  display: block;
+  padding: 5px 10px;
+  margin-top:120px;
+  margin-left:125px;
+  font-size:1.2em;
+  font-family: monospace;
+  position:absolute;
+ 
+  
+}
+
+.category i{
+  width:4%;
+  border: 1px solid black;
+  display: block;
+  padding: 10px 10px;
+  margin-top:155px;
+  margin-left:70px;
+  background: #063146;
+  color:white;
+  position:absolute;
+}
+
+.cat{
+  width:20%;
+  border: 1px solid black;
+  display: block;
+  padding: 5px 10px;
+  margin-top:155px;
+  margin-left:125px;
+  font-size:1.2em;
+  font-family: monospace;
+  position:absolute;
+  
+}
+
+.uom_i i{
+  width:4%;
+  border: 1px solid black;
+  display: block;
+  padding: 10px 10px;
+  margin-top:155px;
+  margin-left:370px;
+  background: #063146;
+  color:white;
+  position:absolute;
+	
+}
+
+.uom{
+  width:20%;
+  border: 1px solid black;
+  display: block;
+  padding: 5px 10px;
+  margin-top:155px;
+  margin-left:420px;
+  font-size:1.2em;
+  font-family: monospace;
+  position:absolute;
+}
+
+.quantitylogo i{
+  width:4%;
+  border: 1px solid black;
+  display: block;
+  padding: 10px 10px;
+  margin-top:215px;
+  margin-left:70px;
+  background: #063146;
+  color:white;
+  position:absolute;
+}
+
+.Quantity{
+  width:20%;
+  border: 1px solid black;
+  display: block;
+  padding: 5px 10px;
+  margin-top:217px;
+  margin-left:125px;
+  font-size:1.2em;
+  font-family: monospace;
+  position:absolute;
+  
+}
+
+.OriginalPricelogo i{
+  width:4%;
+  border: 1px solid black;
+  display: block;
+  padding: 10px 10px;
+  margin-top:193px;
+  margin-left:370px;
+  background: #063146;
+  color:white;
+  position:absolute;
+}
+
+.origprice{
+  width:20%;
+  border: 1px solid black;
+  display: block;
+  padding: 5px 10px;
+  margin-top:195px;
+  margin-left:420px;
+  font-size:1.2em;
+  font-family: monospace;
+  position:absolute;
+  
+}
+
+.Sellinglogo i{
+  width:4%;
+  border: 1px solid black;
+  display: block;
+  padding: 10px 10px;
+  margin-top:169px;
+  margin-left:650px;
+  background: #063146;
+  color:white;
+  position:absolute;
+}
+
+.selling{
+  width:20%;
+  border: 1px solid black;
+  display: block;
+  padding: 5px 10px;
+  margin-top:170px;
+  margin-left:700px;
+  font-size:1.2em;
+  font-family: monospace;
+  position:absolute;
+  
+}
+
+.descriptionlogo i{
+  width:4%;
+  border: 1px solid black;
+  display: block;
+  padding: 10px 10px;
+  margin-top:225px;
+  margin-left:70px;
+  background: #063146;
+  color:white;
+  position:absolute;
+}	
+
+.description{
+  width:44%;
+  height:15%;
+  border: 1px solid black;
+  display: block;
+  padding: 20px 40px;
+  margin-top:225px;
+  margin-left:125px;
+  font-size:1.2em;
+  font-family: monospace;
+  position:absolute;
+  
+}
+
+.add{
+	background-color:#063146;
+	color: white;
+	font-size: 1em;
+	padding: 10px 25px;
+	border-radius: 20px;
+	border: 1px solid black;
+	margin-top:330px;
+	margin-left:-50px;
+	font-family: monospace;
+	position:absolute;
+	
+}
+
+
+
+

@@ -1,0 +1,259 @@
+*{
+margin:0;
+padding:0;
+list-style: none;
+text-decoration: none;
+}
+.alert{
+	position: absolute;
+    padding: .75rem 1.25rem;
+    margin-left: 350px;
+    border: 3px solid transparent;
+    border-radius: .25rem;
+    width: 60%;
+	animation-name:alertsu;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	z-index:15;
+	
+}
+@keyframes alertsu{
+	0%{top:-10px;}
+	100%{top:50px;}
+}
+#warning{
+	margin-left:130px;
+	animation-name:warning;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes warning{
+	0%{top:-50px;}
+	100%{top:0px;}
+}
+#success{
+	display:none;
+}
+#error{
+	display:none;
+}
+
+body{
+	background:url(bg_home.jpg) no-repeat center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size:cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* THIS IS FOR THE MODAL */
+.bg-modal{
+	width:100%;
+	height:100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position:fixed;
+	top:0;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	display:none;
+}
+
+.modal-content{
+	width:800px;
+	height:300px;
+	background-color: white;
+	border-radius:5px;
+	display: flex;
+	position:relative;
+}
+.mClose{
+	font-size:45px;
+	margin-top:10px;
+	margin-left:745px;
+	position:absolute;
+	color:white;
+	transform:rotate(45deg);
+}
+.modal-content h2{
+	font-size:22px;
+	text-align:center;
+	color:white;
+	line-height:70px;
+	background:#063146;
+	margin-bottom:40px;
+	position:absolute;
+	width:800px;
+}
+.modal-content input[type="text"]{
+	font-size:50px;
+}
+.text{
+	width:200px;
+	height:30px;
+}
+.label{
+	font-size:30px;
+}
+.sub{
+	background-color:#063146;
+	color: white;
+	font-size: 20px;
+	border-radius: 3px;
+	border: 1px solid black;
+	font-family: monospace;
+	padding: 5px;
+	margin:30px;
+}
+.form{
+	display: flex;
+	background-color: rgb(0,0,0,0.15);
+	margin-top: 80px;
+	padding:0;
+}
+.form-cont1{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(184, 40, 40, 0.15);
+}
+
+
+/* E N D   O F   M O D A L*/
+
+.sidebar{
+position:fixed;
+left: 0;
+width:200px;
+height:100%;
+background: #042331;
+display:block;
+overflow-y:auto;
+}
+.sidebar header{
+font-size:22px;
+color:white;
+text-align:center;
+line-height:70px;
+background:#063146;
+}
+
+.sidebar ul a{
+display:block;
+height:100%;
+width:100%;
+line-height:65px;
+font-size:15px;
+color:white;
+padding-left:25px;
+box-sizing:border-box;
+border-top:1px solid rgba(255,255,255,.1);
+border-bottom:1px solid black;
+transition:.4s;
+}
+
+
+ul li:hover a{
+padding-left:30px;
+}
+
+.sidebar ul a i{
+margin-right: 16px;
+}
+
+.upperbar{
+color:white;
+text-align:left;
+width:100%;
+height:11.3%;
+background:white;
+border-bottom:1px solid grey;
+border-bottom:1px solid grey;
+position:fixed;
+}
+
+.upperbar h1{
+	font-size:120%;
+	margin-left:250px;
+	margin-top:25px;
+	margin-bottom:40px;
+	color: grey;
+	
+}
+
+.container {
+    font-family: sans-serif;
+	font-size:20px;
+	box-sizing: border-box;
+	color: WHITE;
+	margin-top:100px;
+	margin-left:260px;
+	border: 4px solid white;
+	background: #042331;
+	border-radius: 15px;
+	width: 1050px;
+	height:500px;
+	display:block;
+	overflow-y:auto;
+	position:absolute;
+}
+.container label{
+	font-weight:bold;
+	letter-spacing:2px;
+}
+.container input[type=radio]{
+	width:10px;
+}
+.frm{
+	margin-left:50px;
+	margin-top:40px;
+}
+#submit{
+	width:100px;
+	height:30px;
+	color:white;
+	background-color:transparent;
+	border: 2px solid white;
+	border-radius:7px;
+	margin-left:45px;
+	font-size:12px;
+}
+#table{
+	border-collapse: collapse;
+	color:black;
+	font-size:0.6em;
+	border-radius:5px 5px 0 0;
+	box-shadow: 0 0 20px rgb(0,0,0,0.15);
+	margin-left:50px;
+	margin-top:-45px;
+}
+th{
+	position:sticky;
+	top:0;
+}
+#table thead tr th{
+	background-color:#0a5678;
+	color: white;
+	text-align:center;
+	font-weight: bold;
+}
+#table th,td{
+	padding:12px 15px;
+}
+#table tbody tr{
+	border-bottom: .5px solid #dddddd;
+}
+#table tbody tr:nth-of-type(odd){
+	background-color:#f9fdfe;
+}
+#table tbody tr:nth-of-type(even){
+	background-color:#e5e5e5;
+}
+#table tbody tr:last-of-type{
+	border-bottom: 10px solid #0a5678;
+}
+
+
+

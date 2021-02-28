@@ -1,0 +1,137 @@
+body{
+	background:url(bg_home.jpg) no-repeat center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size:cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+margin:0;
+padding:0;
+list-style: none;
+text-decoration: none;
+}
+
+.sidebar{
+position:fixed;
+left: 0;
+width:200px;
+height:100%;
+background: #042331;
+display:block;
+overflow-y:auto;
+}
+.sidebar header{
+font-size:22px;
+color:white;
+text-align:center;
+line-height:70px;
+background:#063146;
+}
+
+.sidebar ul a{
+display:block;
+height:100%;
+width:100%;
+line-height:65px;
+font-size:15px;
+color:white;
+padding-left:25px;
+box-sizing:border-box;
+border-top:1px solid rgba(255,255,255,.1);
+border-bottom:1px solid black;
+transition:.4s;
+}
+
+ul li:hover a{
+padding-left:30px;
+}
+
+.sidebar ul a i{
+margin-right: 16px;
+}
+
+.upperbar{
+color:white;
+text-align:left;
+width:100%;
+height:11.3%;
+background:white;
+border-bottom:1px solid grey;
+border-bottom:1px solid grey;
+position:fixed;
+}
+
+.upperbar h1{
+	font-size:120%;
+	margin-left:300px;
+	margin-top:25px;
+	margin-bottom:40px;
+	color: grey;
+	
+}
+.cont-pass{
+	margin:120px 1050px;
+	position:absolute;
+	background:rgb(219, 161, 0,0.5);
+	padding:20px;
+	
+	display:flex;
+	flex-direction:column;
+}
+.cont-pass form{
+	padding:20px;
+	
+}
+input{
+	margin:5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+input[type=submit]{
+	padding:5px 10px 5px 10px;
+	background:#063146;
+	color:white;
+	border-style:none;
+}
+
+
+.cont{
+	margin: 110px 300px;
+	padding:0px;
+	position:absolute;
+	
+	border-radius:5px;
+	border-color: rgb(9, 47, 79,0.7);  
+	
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+}
+
+.items{
+	border-radius:5px;
+	color:white;
+	font-family:'Arial',sans-serif;
+	
+	width:550px;
+	margin:10px;
+	padding:20px;
+	
+}
+label{
+	font-size:20px;
+	letter-spacing:2px;
+}
+
+#item-critical{
+	background:rgb(115, 0, 6,0.6);
+}
+#item-pending{
+	background:rgb(191, 140, 23,0.6);
+}
+#item-pick{
+	background:rgb(33, 125, 21, 0.6);
+}
